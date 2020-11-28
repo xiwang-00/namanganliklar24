@@ -1,0 +1,501 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #F6F6F9;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.rus {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.row-center {
+    display: flex;
+}
+
+.logo a {
+    padding: 0.5rem;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.info p {
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.info b {
+    font-size: 16px;
+    line-height: 19px;
+    color: #285193;
+}
+
+.buttons a {
+    padding: 0.5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+    margin-left: 20px;
+}
+
+.buttons .tg {
+    display: flex;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    color: white;
+}
+
+.menu {
+    background-color: white;
+    padding: 1rem 0.7rem;
+}
+
+.menu a {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #285193;
+}
+
+.covid {
+    margin-top: 50px;
+    padding: 0 1rem;
+    background-color: #F6F6F9;
+}
+
+.in-uzb .text {
+    margin-left: 20px;
+}
+
+.in-uzb .two h2 {
+    color: #DB0000;
+}
+
+.in-uzb .text .green {
+    color: #05B135;
+}
+
+.in-uzb .text .dead {
+    color: black;
+}
+
+.one {
+    padding: 15px;
+    border-right: 3px solid #EB5569;
+}
+
+.two {
+    padding-right: 15px;
+    border-right: 2px solid #F4CCD1;
+}
+
+.box {
+    width: 32%;
+    margin-top: 15px;
+}
+
+.box h3 {
+    line-height: 20px;
+    color: #202020;
+    margin: 10px 0;
+}
+
+.box p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+}
+
+.news {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.notifications {
+    margin-top: 50px;
+    background: rgba(239, 186, 84, 0.18);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+.noti-left h2 {
+    margin-left: 20px;
+}
+
+.noti-right a {
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0.7rem 1rem;
+}
+
+.news-left {
+    width: 65%;
+}
+
+.link a {
+    background: #295093;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.link {
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.news-right {
+    width: 35%;
+}
+
+.block {
+    margin-top: 20px;
+}
+
+.block-inner {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.block-inner p {
+    font-size: 15px;
+}
+
+.date {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
+.news-right-inner {
+    width: 90%;
+    margin-left: auto;
+}
+
+.box-inner {
+    background: #F6F6F9;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+.inner {
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #E4E4E4;
+}
+
+.inner p {
+    margin: 20px 0;
+}
+
+.news-right-inner img {
+    width: 100%;
+}
+
+.advertising {
+    margin-top: 50px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    padding: 0 1rem 0 1rem;
+}
+
+.advertising-right a {
+    margin-left: 15px;
+}
+
+.advertising-center h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #295093;
+}
+
+footer {
+    background: #295093;
+    padding: 1rem;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    background: #133C82;
+    border-radius: 5px;
+}
+
+.footer-logo a {
+    display: block;
+    color: #FFFFFF;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+}
+
+.footer-button a {
+    padding: 0.5rem;
+    background-color: white;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #295093;
+    margin-left: 20px;
+    display: flex;
+    font-weight: bold;
+}
+
+.vector {
+    margin-right: 10px;
+}
+
+.top {
+    padding-bottom: 2rem;
+    border-bottom: 3px solid #133C82;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+ul {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 75px;
+}
+
+ul li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.news-info p {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 20px 0;
+}
+
+.news-info b {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 20px 0;
+}
+
+.hashtag a {
+    font-size: 18px;
+    line-height: 21px;
+    color: #28508E;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.news-theme {
+    width: 100%;
+}
+
+.left input {
+    width: 80%;
+    margin: 10px auto;
+    background: #F1F1F1;
+    opacity: 0.7;
+    border: 2px solid #285193;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0.8rem;
+}
+
+.left textarea {
+    width: 80%;
+    margin: 10px auto;
+    background: #F1F1F1;
+    opacity: 0.7;
+    border: 2px solid #285193;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0.8rem;
+    resize: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+#file {
+    display: none;
+}
+
+.file {
+    width: 40%;
+    background: #F1F1F1;
+    opacity: 0.7;
+    border: 2px solid #285193;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0.8rem;
+    align-items: center;
+    display: flex;
+}
+
+form .password {
+    width: 40%;
+    background: #F1F1F1;
+    opacity: 0.7;
+    border: 2px solid #285193;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0.7rem;
+}
+
+form button {
+    width: 40%;
+    height: 50px;
+    background: #295093;
+    border: 2px solid rgba(40, 81, 147, 0.54);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.pass {
+    margin-left: 50px;
+    font-size: 23px;
+    line-height: 29px;
+}
+
+.card {
+    width: 510px;
+    height: 280px;
+    background: #FFFFFF;
+    border: 2px solid #BCC3CD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: -15px 15px 3px rgba(41, 80, 145, 0.16);
+    margin-top: 50px;
+    padding: 1rem;
+}
+
+.row-end a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.card .row-padding p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+}
+
+.card .row-padding a {
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+    text-decoration: none;
+}
+
+.card .row-padding .tg-dark {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #295091;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.row-padding span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #133C82;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fa {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.row-padding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.row-padding span:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #133C82;
+}
+
+.row-padding span:hover .fa {
+    color: #133C82;
+}
+
+.buttons input{
+    width: 145px;
+    height: 38px;
+    padding: 0 0.5rem;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
